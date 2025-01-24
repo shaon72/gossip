@@ -1,6 +1,15 @@
-This is a real-time messaging application built with React for the frontend and Go for the backend. 
+# Gossip
 
-**Installation**
+This is a real-time messaging application built with React on the frontend and Go and Redis on the backend. 
+
+**Features**
+
+- Group chat
+- Authenticated users
+
+**Installing**
+
+For enabling authentication, you will need a domain and a client id from Auth0 to use it in a .env file in the client side.
 
 Step 1:
 ```
@@ -13,6 +22,8 @@ Step 2:
   cd server
   go run main.go
 ```
-You will have to install air if you want live reloading support.
+You will have to install air if you want live reloading support for go.
 
-Now open 2 tabs in your browser and you're ready to go.
+**Screenshot**
+
+![web](client/src/assets/web_app.png)
